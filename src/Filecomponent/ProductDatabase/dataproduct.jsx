@@ -1,20 +1,20 @@
-import P1 from 'C:/Users/somec/OneDrive/Desktop/office work/ashiontemplate/src/Images/product-1.jpg';
-import P2 from 'C:/Users/somec/OneDrive/Desktop/office work/ashiontemplate/src/Images/product-2.jpg';
-import P3 from 'C:/Users/somec/OneDrive/Desktop/office work/ashiontemplate/src/Images/product-3.jpg';
-import P4 from 'C:/Users/somec/OneDrive/Desktop/office work/ashiontemplate/src/Images/product-4.jpg';
-import P5 from 'C:/Users/somec/OneDrive/Desktop/office work/ashiontemplate/src/Images/product-5.jpg';
-import P6 from 'C:/Users/somec/OneDrive/Desktop/office work/ashiontemplate/src/Images/product-6.jpg';
-import P7 from 'C:/Users/somec/OneDrive/Desktop/office work/ashiontemplate/src/Images/product-7.jpg';
-import P8 from 'C:/Users/somec/OneDrive/Desktop/office work/ashiontemplate/src/Images/product-8.jpg';
-import P9 from 'C:/Users/somec/OneDrive/Desktop/office work/ashiontemplate/src/Images/product-1.jpg';
-import P10 from 'C:/Users/somec/OneDrive/Desktop/office work/ashiontemplate/src/Images/product-2.jpg';
-import P11  from 'C:/Users/somec/OneDrive/Desktop/office work/ashiontemplate/src/Images/product-3.jpg';
-import P12 from 'C:/Users/somec/OneDrive/Desktop/office work/ashiontemplate/src/Images/product-4.jpg';
-import P13 from 'C:/Users/somec/OneDrive/Desktop/office work/ashiontemplate/src/Images/product-5.jpg';
-import P14 from 'C:/Users/somec/OneDrive/Desktop/office work/ashiontemplate/src/Images/product-6.jpg';
-import P15 from 'C:/Users/somec/OneDrive/Desktop/office work/ashiontemplate/src/Images/product-7.jpg';
-import P16 from 'C:/Users/somec/OneDrive/Desktop/office work/ashiontemplate/src/Images/product-8.jpg';
-import P17 from 'C:/Users/somec/OneDrive/Desktop/office work/ashiontemplate/src/Images/product-1.jpg';
+import P1 from '../../Images/product-1.jpg';
+import P2 from '../../Images/product-2.jpg';
+import P3 from '../../Images/product-3.jpg';
+import P4 from '../../Images/product-4.jpg';
+import P5 from '../../Images/product-5.jpg';
+import P6 from '../../Images/product-6.jpg';
+import P7 from '../../Images/product-7.jpg';
+import P8 from '../../Images/product-8.jpg';
+import P9 from '../../Images/product-1.jpg';
+import P10 from '../../Images/product-2.jpg';
+import P11  from '../../Images/product-3.jpg';
+import P12 from '../../Images/product-4.jpg';
+import P13 from '../../Images/product-5.jpg';
+import P14 from '../../Images/product-6.jpg';
+import P15 from '../../Images/product-7.jpg';
+import P16 from '../../Images/product-8.jpg';
+import P17 from '../../Images/product-1.jpg';
 
 
 const ProductsData = [
