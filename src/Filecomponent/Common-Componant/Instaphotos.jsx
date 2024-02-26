@@ -1,11 +1,11 @@
 import React from 'react'
 import './Instaphotos.css'
-import p1 from 'C:/Users/somec/OneDrive/Desktop/office work/ashiontemplate/src/Images/insta-1.jpg'
-import p2 from 'C:/Users/somec/OneDrive/Desktop/office work/ashiontemplate/src/Images/insta-2.jpg'
-import p3 from 'C:/Users/somec/OneDrive/Desktop/office work/ashiontemplate/src/Images/insta-3.jpg'
-import p4 from 'C:/Users/somec/OneDrive/Desktop/office work/ashiontemplate/src/Images/insta-4.jpg'
-import p5 from 'C:/Users/somec/OneDrive/Desktop/office work/ashiontemplate/src/Images/insta-5.jpg'
-import p6 from 'C:/Users/somec/OneDrive/Desktop/office work/ashiontemplate/src/Images/insta-6.jpg'
+import p1 from '../../Images/insta-1.jpg'
+import p2 from '../../Images/insta-2.jpg'
+import p3 from '../../Images/insta-3.jpg'
+import p4 from '../../Images/insta-4.jpg'
+import p5 from '../../Images/insta-5.jpg'
+import p6 from '../../Images/insta-6.jpg'
 import { Link } from 'react-router-dom'
 
 
