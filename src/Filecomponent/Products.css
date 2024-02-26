@@ -1,0 +1,158 @@
+.Main-Pdiv{
+    margin-top: 2vw;
+}
+.Main-Pdiv .p-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Main-Pdiv .p-head ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: fit-content;
+}
+.Main-Pdiv .p-head h1{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.Main-Pdiv .p-head ul li{
+    margin: 0vw 2vw;
+    font-size: 1.5rem;
+    font-weight: 100;
+    width: fit-content;
+    
+}
+.Main-Pdiv .p-head ul li:hover{
+    border-bottom: 1px solid red;
+}
+
+.Main-Pdiv .Products-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:wrap;
+    text-align: center;
+}
+.Main-Pdiv .Products-div .P-in{
+    margin-bottom: 25px;
+}
+.Main-Pdiv .Products-div .P-in .img-div .hover-div{
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    bottom:-30%;
+    transform: translate(-50%,-50%);
+}
+.Main-Pdiv .Products-div .P-in .img-div .hover-div i{
+    padding: .9vw;
+    margin: .5vw;
+    background: whitesmoke;
+    color: #000;
+    font-size: 2rem;
+    border-radius: 50%;
+}
+/*___________________---P-HOVER--__________________________*/
+.Main-Pdiv .Products-div .P-in:hover .hover-div{
+    transition: .4s ease-in-out;
+    left: 50%;
+    bottom:0%;
+    transform: translate(-50%,-50%);
+}
+.Main-Pdiv .Products-div .P-in .hover-div i:hover{
+    transition: .4s ease-in-out;
+    transform: rotate(360deg);
+    background-color: red;
+}
+
+
+.Main-Pdiv .Products-div .P-in h1{
+    font-size: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin: 0;
+}
+.Main-Pdiv .Products-div .P-in .img-div{
+    position: relative;
+    width: fit-content;
+    overflow: hidden;
+}
+.Main-Pdiv .Products-div .P-in .img-div .Sale{
+    background-color:green;
+    width: fit-content;
+    padding: .1vw .5vw;
+    position: absolute;
+    top: -5%;
+    right: 0%;
+    font-size:2rem;
+}
+.Main-Pdiv .Products-div .P-in .img-div .Ostock{
+    background-color: red;
+    width: fit-content;
+    padding: .1vw .5vw;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    font-size:2rem;
+}
+.Main-Pdiv .Products-div .P-in .img-div .condition{
+    background-color:salmon ;
+    width: fit-content;
+    padding: .1vw .5vw;
+    position: absolute;
+    top: -5%;
+    left: 0%;
+    font-size:2rem;
+}
+.Main-Pdiv .Products-div .P-in .img-div img{
+    width: 100%;
+}
+.Main-Pdiv .Products-div .P-in .img-div img:hover{
+    transition: .5s ease-in-out;
+    transform: scale(1.1);
+}
+.Main-Pdiv .Products-div .P-in .prating{
+    color: rgb(197, 161, 50);
+    font-size: 1.5rem;
+    margin: 0;
+}
+.Main-Pdiv .Products-div .P-in .price-div {
+    display: flex;
+    justify-content: center;
+}
+.Main-Pdiv .Products-div .P-in .price-div p {
+    padding: 0 1vw;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+.Main-Pdiv .Products-div .P-in .price-div .mrp{
+    text-decoration: line-through;
+    color: gray;
+}
+
+/*_______________________-------RESPONSIVE---------__________________________*/
+
+@media (max-width:812px) {
+    .Main-Pdiv .Products-div{
+        justify-content: space-evenly;
+    }
+    .Main-Pdiv .Products-div .P-in .img-div .hover-div i {
+        padding: 1.9vw;
+        margin: 1.5vw;
+    }
+}
+@media (max-width:540px) {
+    .Main-Pdiv .Products-div{
+        justify-content: center;
+    }
+    .Main-Pdiv .Products-div .P-in .img-div .hover-div i {
+        padding: 2.1vw;
+        margin: 2vw;
+    }
+    
+    
+}

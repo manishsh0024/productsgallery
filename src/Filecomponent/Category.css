@@ -1,0 +1,174 @@
+.Main-cat-div{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.Main-cat-div .left-div{
+    width: 40%;
+    background-image: url('../Images/category-1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10vw 5vw;
+}
+.Main-cat-div .left-div h1{
+    font-family: 'Cookie', cursive;
+    font-size: 4rem;
+}
+.Main-cat-div .left-div p{
+    font-family: 'Cookie', cursive;
+    font-size: 2rem;
+}
+.Main-cat-div .left-div button{
+    font-size: 2rem;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid red;
+    outline: none;
+    cursor: pointer;
+}
+
+.Main-cat-div .right-div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 55%;
+}
+.Main-cat-div .right-div .cat-div{
+    width: 44%;
+    margin-left: .5vw;
+    padding: 2vw;
+}
+.Main-cat-div .right-div .cat-div h1{
+    font-size: 2.5rem;
+    font-weight:900 ;
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+}
+.Main-cat-div .right-div .cat-div p{
+    font-size: 2rem;
+    padding: 0;
+    margin: .5vw 0;
+    width: fit-content;
+}
+.Main-cat-div .right-div .cat-div button{
+    font-size: 1.5rem;
+    font-weight: 700;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid red;
+    outline: none;
+    cursor: pointer;
+}
+.Main-cat-div .right-div #div1{
+    background-image: url('../Images/category-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:72px 20px;
+    margin-bottom:.5vw;
+}
+.Main-cat-div .right-div #div2{
+    background-image: url('../Images/category-3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:72px 20px;
+    margin-bottom:.5vw;
+}
+.Main-cat-div .right-div #div3{
+    background-image: url('../Images/category-4.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:72px 20px;
+}
+.Main-cat-div .right-div #div4{
+    background-image: url('../Images/category-5.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:72px 20px;
+}
+
+
+/*_______________________-------RESPONSIVE---------__________________________*/
+
+@media (max-width:1522px){
+    .Main-cat-div .right-div .cat-div{
+        width: 40%;
+    }
+}
+
+@media (max-width:990px) {
+    html{
+        font-size: 9px;
+    }
+    .Main-cat-div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .Main-cat-div .left-div{
+        width: 90%;
+        padding: 17vw 0;
+        padding-left:10vw;
+        margin-bottom: .5vw;
+    }
+    .Main-cat-div .left-div h1{
+        padding:2vw 0;
+    }
+    .Main-cat-div .left-div p{
+        padding:2vw 0;
+    }
+    .Main-cat-div .left-div button{
+        padding:2vw 0;
+    }
+    .Main-cat-div .right-div{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .Main-cat-div .right-div .cat-div{
+        width: 45%;
+        margin-left: 0vw;
+    }
+}
+
+@media (max-width:810px){
+
+    .Main-cat-div .right-div{
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .Main-cat-div .right-div .cat-div{
+        width: 100%;
+        margin-bottom: .5vw;
+    }
+    .Main-cat-div .right-div #div1{
+        background-image: url('../Images/category-2.jpg');
+        padding: 10vw;
+    }
+    .Main-cat-div .right-div #div2{
+        background-image: url('../Images/category-3.jpg');
+        padding: 10vw;
+    }
+    .Main-cat-div .right-div #div3{
+        background-image: url('../Images/category-4.jpg');
+        padding: 10vw;
+    }
+    .Main-cat-div .right-div #div4{
+        background-image: url('../Images/category-5.jpg');
+        padding: 10vw;
+    }
+    .Main-cat-div .right-div h1{
+        padding:2vw 0;
+    }
+    .Main-cat-div .right-div p{
+        padding:2vw 0;
+    }
+    .Main-cat-div .right-div button{
+        padding:2vw 0;
+    }
+}

@@ -1,0 +1,20 @@
+.categorySec{
+
+}
+.categorySec .left-cat-div{
+    display: block;
+
+}
+.categorySec .left-cat-div .Drop-list{
+    display: block;
+}
+.categorySec .left-cat-div .Drop-list option{
+    outline: none;
+    border: none;
+}
+
+
+
+.categorySec .right-cat-div{
+
+}

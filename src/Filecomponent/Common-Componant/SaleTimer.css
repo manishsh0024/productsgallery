@@ -1,0 +1,49 @@
+.maintimer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ptimer-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+}
+.ptimer-div .sh1{
+    color: black !important;
+    font-size: 3rem !important;
+    font-weight: 600;
+    padding: 0 1vw;
+}
+.ptimer-div .sh1 span{
+    color: black;
+    font-size: 1.7rem;
+    font-weight: 400;
+    font-family: none;
+}
+
+
+@media (max-width:1024px) {
+    html{
+        font-size: 9px;
+    }
+    .ptimer-div{
+        width: 50%;
+    }
+}
+@media (max-width:768px) {
+    html{
+        font-size: 10px;
+    }
+    .ptimer-div{
+        width: 80%;
+    }
+}
+@media (max-width:500px) {
+    html{
+        font-size: 8px;
+    }
+    .ptimer-div{
+        width: 100%;
+    }
+}

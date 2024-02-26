@@ -1,0 +1,32 @@
+.instadp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    border: 1px solid blue;
+}
+.instadp .img-div{
+    width: 16%;
+    position: relative;
+}
+.instadp .img-div .link-div{
+    position: absolute;
+    background-color: aliceblue;
+    opacity: .5;
+    width: 100%;
+    height: 100%;
+}
+.instadp .img-div .link-div h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 1;
+    color: red;
+}
+.instadp .img-div img{
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
